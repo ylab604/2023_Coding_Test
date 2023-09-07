@@ -55,7 +55,6 @@ def dfs(depth,arr):
         check(tmp,i,x,y)
         dfs(depth+1,tmp)
         tmp = copy.deepcopy(arr)
-시
 min_value = int(1e9)
 dfs(0,arr)
 print(min_value)
